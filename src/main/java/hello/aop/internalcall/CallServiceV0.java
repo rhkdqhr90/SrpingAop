@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class CallServiceV0 {
 
+
+
     public void external(){
         log.info("call external");
         this.internal();
